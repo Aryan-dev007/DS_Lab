@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+MAX	main.c	/^#define MAX /;"	d	file:
+MAX	revq.c	/^#define MAX /;"	d	file:
+delete	main.c	/^void delete()$/;"	f
+delete	revq.c	/^void delete()$/;"	f
+display	main.c	/^void display()$/;"	f
+display	revq.c	/^void display()$/;"	f
+display_stack	revq.c	/^void display_stack()$/;"	f
+front	main.c	/^int rear = - 1, front = -1;$/;"	v
+front	revq.c	/^int rear = - 1, front = -1;$/;"	v
+insert	main.c	/^void insert()$/;"	f
+insert	revq.c	/^void insert()$/;"	f
+insert_rev	revq.c	/^void insert_rev(int add_item)$/;"	f
+main	main.c	/^int main()$/;"	f
+main	revq.c	/^int main()$/;"	f
+pop	revq.c	/^void pop()$/;"	f
+push	revq.c	/^void push(int val)$/;"	f
+queue_array	main.c	/^int queue_array[MAX];$/;"	v
+queue_array	revq.c	/^int queue_array[MAX];$/;"	v
+rear	main.c	/^int rear = - 1, front = -1;$/;"	v
+rear	revq.c	/^int rear = - 1, front = -1;$/;"	v
+reverse	revq.c	/^void reverse() {$/;"	f
+stack	revq.c	/^int top=-1,stack[MAX];$/;"	v
+top	revq.c	/^int top=-1,stack[MAX];$/;"	v
