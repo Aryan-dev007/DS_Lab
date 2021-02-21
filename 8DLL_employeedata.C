@@ -185,7 +185,7 @@ NODE* queue(NODE *head) {
 				case 1: do {
 					printf("\n1.Insert at Rear\t2.Delete from Front\t3.Exit");
 					printf("Enter your choice: ");
-					scanf("%d", &ch);
+					scanf("%d", &ch1); // Saraswat
 					switch(ch1){
 						case 1: head = insert_end(head); break;
 						case 2: head = delete_front(head); break;
