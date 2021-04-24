@@ -50,7 +50,7 @@ void pallindrome() {
 }
 
 
-void main() {
+int main(void) {
 	int ch;
 	clrscr();
 	while(1) {
@@ -65,7 +65,7 @@ void main() {
 			case 2: pop();   break;
 			case 3: display();   break;
 			case 4: pallindrome();   break;
-			case 5: exit(0);
+			case 5: return 0;
 		}
 	}
 }

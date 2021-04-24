@@ -33,7 +33,7 @@ void stringmatch() {
 	ans[j] = '\0';
 }
 
-int main() {
+int main(void) {
     clrscr();
     printf("Enter the main string:  ");
     scanf("%[^\n]%*c", stringinp);
@@ -47,7 +47,7 @@ int main() {
     if (flag == 1)
 	printf("Ans String: %s\n", ans);
     else
-	printf("Pattern STring not found\n");
+	printf("Pattern String not found\n");
 
     getch();
 

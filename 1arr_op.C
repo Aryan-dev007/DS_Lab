@@ -43,7 +43,7 @@ void delete() {
 	n -= 1;
 }
 
-int main() {
+int main(void) {
 	int ch;
 	clrscr();
 	while(1) {
@@ -55,7 +55,7 @@ int main() {
 			case 2: display(); break;
 			case 3: insert(); break;
 			case 4: delete(); break;
-			case 5: exit(0); break;
+			case 5: return 0;
 			default: printf("Invalid Choice\n");
 		}
 	}

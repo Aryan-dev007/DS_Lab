@@ -10,7 +10,7 @@ void tower(int n, char source, char destination, char temp) {
 	tower(n-1, temp, destination, source);
 }
 
-void main() {
+int main(void) {
 	int n;
 	clrscr();
 	printf("Enter the number of discs: \n");
@@ -18,4 +18,5 @@ void main() {
 	tower(n, 'A', 'B', 'C');
 	printf("\n\nTotal number of moves are: %d\n ", (int)pow(2,n)-1);
 	getch();
+	return 0;
 }

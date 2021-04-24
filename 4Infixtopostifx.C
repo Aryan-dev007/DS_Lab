@@ -58,7 +58,7 @@ void infix_postfix(char infix[], char postfix[]) {
 }
 
 
-void main() {
+int main(void) {
 	char infix[20], postfix[20];
 	clrscr();
 	printf("\nEnter a valid infix expression: ");
@@ -68,5 +68,6 @@ void main() {
 	printf("\n The infix exp is : %s\n", infix);
 	printf("The postfix exp is : %s \n", postfix);
 	getch();
+	return 0;
 
 }
